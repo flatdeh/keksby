@@ -6,238 +6,271 @@
 </head>
 <body>
 
-<header>
-    <div>
-        <div>logo</div>
-        <nav>
-            <ul>
-                <li>магазин</li>
-                <li>каталог</li>
-                <li>отзывы</li>
+<header class="header">
+    <div class="container">
+
+        <div class="logo">
+            <a href="#" class="logo__link">
+                <img src="" alt="" class="logo__img">
+            </a>
+        </div>
+
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">магазин</li>
+                <li class="menu__item">каталог</li>
+                <li class="menu__item">отзывы</li>
             </ul>
         </nav>
-        <a href="#">заказать</a>
+
+        <div class="btn">
+            <a href="#" class="btn__link">заказать</a>
+        </div>
     </div>
 
-    <h1>Аксессуары для котов</h1>
-    <h2>Коллекция FW15</h2>
+    <div class="container">
+        <h1 class="header__title">Аксессуары для котов</h1>
+        <p class="header__description">Коллекция FW15</p>
+    </div>
 </header>
 
-<section>
-    <div>
-        <div>icon</div>
-        <h3>Выбор</h3>
-        <p>Ваш питомец оценит широту нашего ассортимента аксессуаров.</p>
+<section class="features">
+    <div class="feature">
+        <h1 class="feature__title">Выбор</h1>
+        <p class="feature__description">Ваш питомец оценит широту нашего ассортимента аксессуаров.</p>
     </div>
-    <div>
-        <div>icon</div>
-        <h3>Качество</h3>
-        <p>Наши товары не сломаются на второй день. Только на третий.</p>
+    <div class="feature">
+        <h1 class="feature__title">Качество</h1>
+        <p class="feature__description">Наши товары не сломаются на второй день. Только на третий.</p>
     </div>
-    <div>
-        <div>icon</div>
-        <h3>Безопастность</h3>
-        <p>Все изготовлено из натуральных материалов, безопасных для котов.</p>
+    <div class="feature">
+        <h1 class="feature__title">Безопастность</h1>
+        <p class="feature__description">Все изготовлено из натуральных материалов, безопасных для котов.</p>
     </div>
 </section>
 
-<section>
-    <h1>Немного теории</h1>
-    <a href="#">справочник</a>
-    <article>
-        <h2>Окрас кошек и котов</h2>
-        <span>источник: <a href="#">wikipedia</a></span>
-        <img>
-        <p>Окрас шерсти, кожи и глаз кошки обусловлен присутствием в них пигмента меланина. Меланин находится в теле
-            волоса в виде микроскопических гранул, которые различаются по форме, размеру и количеству, что и вызывает
-            различия в окрасе.</p>
-    </article>
-    <article>
-        <h2>Кошкин дом</h2>
-        <span>источник: <a href="#">kotmurr.spb.ru</a></span>
-        <img>
-        <p>Нужен ли кошке Кошкин дом? Свой отдельный, обособленный от пространства городской квартиры Кошкин дом? Да,
-            нужен! Нужен особый Кошкин дом, обустроенный по ее вкусу с лесенкой, с когтеточкой, с замкнутым, своим,
-            отдельным уголком в ее, кошкином, доме.</p>
-    </article>
-</section>
+<section class="articles">
+    <div class="container">
 
-<section>
-    <h1>Довольные коты</h1>
-    <a href="#">все отзывы</a>
-    <article>
-        <p>Спасибо Кексу за давно напрашивающуюся идею! Набрал себе очков на все случаи жизни: для чтения и для
-            вечеринки с котанами B-)</p>
-        <span>Барсик, г. Москва</span>
-    </article>
-    <article>
-        <p>Я просто не могу без шоппинга и теперь не нужно тащить хозяйку в магазин, заказываю все аксессуары на сайте у
-            Кекса он-лайн!</p>
-        <span>Мурка, г. Санкт-Петербург</span>
-    </article>
-</section>
+        <div class="section-header">
+            <h1 class="section-header__title">Немного теории</h1>
+            <div class="btn">
+                <a href="#" class="btn__link">справочник</a>
+            </div>
+        </div>
 
-<section>
-    <h1>Популярные товары</h1>
-    <a href="#">каталог</a>
-    <div>
-        <img src="#" alt="">
-        <span>Очки "Классика жанра"</span>
-        <div>300 р.</div>
-        <a href="#">описание</a>
-        <a href="#">купить</a>
-    </div>
-    <div>
-        <img src="#" alt="">
-        <span>Очки "Жалюзи"</span>
-        <div>400 р.</div>
-        <a href="#">описание</a>
-        <a href="#">купить</a>
-    </div>
-    <div>
-        <img src="#" alt="">
-        <span>Очки "Базилио"</span>
-        <div>500 р.</div>
-        <a href="#">описание</a>
-        <a href="#">купить</a>
+        <article class="article">
+            <h2 class="article__title">Окрас кошек и котов</h2>
+            <span class="article__text">
+                источник: <a href="#" class="article__link">wikipedia</a>
+            </span>
+            <p class="arcticle__description">Окрас шерсти, кожи и глаз кошки обусловлен присутствием в них пигмента
+                меланина. Меланин находится в теле
+                волоса в виде микроскопических гранул, которые различаются по форме, размеру и количеству, что и
+                вызывает
+                различия в окрасе.</p>
+        </article>
+        <article class="article">
+            <h2 class="article__title">Кошкин дом</h2>
+            <span class="article__text">
+                источник: <a href="#" class="article__link">kotmurr.spb.ru</a>
+            </span>
+            <img>
+            <p class="arcticle__description">Нужен ли кошке Кошкин дом? Свой отдельный, обособленный от пространства
+                городской квартиры Кошкин дом?
+                Да,
+                нужен! Нужен особый Кошкин дом, обустроенный по ее вкусу с лесенкой, с когтеточкой, с замкнутым, своим,
+                отдельным уголком в ее, кошкином, доме.</p>
+        </article>
     </div>
 </section>
 
-<section>
-    <h2>Популярные товары</h2>
-    <a href="#">каталог</a>
-    <div>
-        <img src="#" alt="">
-        <span>Очки "Классика жанра"</span>
-        <div>300 р.</div>
-        <a href="#">описание</a>
-        <a href="#">купить</a>
-    </div>
-    <div>
-        <img src="#" alt="">
-        <span>Очки "Жалюзи"</span>
-        <div>400 р.</div>
-        <a href="#">описание</a>
-        <a href="#">купить</a>
-    </div>
-    <div>
-        <img src="#" alt="">
-        <span>Очки "Базилио"</span>
-        <div>500 р.</div>
-        <a href="#">описание</a>
-        <a href="#">купить</a>
+<section class="comments">
+    <div class="container">
+        <div class="section-header">
+            <h1 class="section-header__title">Довольные коты</h1>
+            <div class="btn">
+                <a href="#" class="btn__link">все отзывы</a>
+            </div>
+        </div>
+
+        <article class="comment">
+            <p class="comment__text">Спасибо Кексу за давно напрашивающуюся идею! Набрал себе очков на все случаи жизни:
+                для чтения и для
+                вечеринки с котанами B-)</p>
+            <span class="comment__user-name">Барсик, г. Москва</span>
+        </article>
+        <article class="comment">
+            <p class="comment__text">Я просто не могу без шоппинга и теперь не нужно тащить хозяйку в магазин, заказываю
+                все аксессуары на
+                сайте у
+                Кекса он-лайн!</p>
+            <span class="comment__user-name">Мурка, г. Санкт-Петербург</span>
+        </article>
     </div>
 </section>
 
-<section>
-    <h1>Прайс-лист на услуги</h1>
-    <table>
-        <tr>
-            <th>№</th>
-            <th>название услуги</th>
-            <th>кто оказывает</th>
-            <th>сколько стоит</th>
-        </tr>
-        <tr>
-            <td>1.</td>
-            <td>Стрижка</td>
-            <td>Грумер</td>
-            <td>500 руб.</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>Заточка когтей</td>
-            <td>Грумер</td>
-            <td>300 руб.</td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>Накрутка усов</td>
-            <td>Грумер</td>
-            <td>100 руб.</td>
-        </tr>
-        <tr>
-            <td>4.</td>
-            <td>Подбор аксессуаров</td>
-            <td>Стилист</td>
-            <td>1500 руб.</td>
-        </tr>
-    </table>
+<section class="products">
+    <div class="container">
+        <div class="section-header">
+            <h1 class="section-header__title">популярные товары</h1>
+            <div class="btn">
+                <a href="#" class="btn__link">каталог</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="#" alt="" class="product__img">
+            <span class="product__title">Очки "Классика жанра"</span>
+            <div class="product__price">300 р.</div>
+            <a href="#" class="product__btn">описание</a>
+            <a href="#" class="product__btn">купить</a>
+        </div>
+        <div class="product">
+            <img src="#" alt="" class="product__img">
+            <span class="product__title">Очки "Жалюзи"</span>
+            <div class="product__price">400 р.</div>
+            <a href="#" class="product__btn">описание</a>
+            <a href="#" class="product__btn">купить</a>
+        </div>
+        <div class="product">
+            <img src="#" alt="" class="product__img">
+            <span class="product__title">Очки "Базилио"</span>
+            <div class="product__price">500 р.</div>
+            <a href="#" class="product__btn">описание</a>
+            <a href="#" class="product__btn">купить</a>
+        </div>
+    </div>
 </section>
 
-<section>
-    <h1>Остались вопросы?</h1>
-    <span>Свяжитесь с нами, и мы развеем оставшиеся у вас сомнения!</span>
+<section class="price">
+    <div class="container">
+        <div class="section-header">
+            <h1 class="section-header__title">прайс-лист на услуги</h1>
+        </div>
+        <table class="price-table">
+            <tr class="price-table__header">
+                <th>№</th>
+                <th>название услуги</th>
+                <th>кто оказывает</th>
+                <th>сколько стоит</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Стрижка</td>
+                <td>Грумер</td>
+                <td>500 руб.</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Заточка когтей</td>
+                <td>Грумер</td>
+                <td>300 руб.</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Накрутка усов</td>
+                <td>Грумер</td>
+                <td>100 руб.</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Подбор аксессуаров</td>
+                <td>Стилист</td>
+                <td>1500 руб.</td>
+            </tr>
+        </table>
+    </div>
+</section>
 
-    <form action="">
-        <label for="name">представьтесь, пожалуйста:</label>
-        <input type="text" id="name" placeholder='Имя "Прозвище" Фамилия'>
+<section class="feedback">
+    <div class="container">
+        <div class="section-header">
+            <h1 class="section-header__title">Остались вопросы?</h1>
+            <p class="section-headre__text">Свяжитесь с нами, и мы развеем оставшиеся у вас сомнения!</p>
+        </div>
 
-        <label for="tel-number">контактный телефон:</label>
-        <input type="tel" id="tel-number" placeholder="8 (XXX) XXX-XX-XX">
+        <form action="" class="feedback-form">
+            <label for="name" class="feedback-form__label">представьтесь, пожалуйста:</label>
+            <input type="text" id="name" placeholder='Имя "Прозвище" Фамилия' class="feedback-form__input">
 
-        <label for="email">электронная почта</label>
-        <input type="email" id="email" placeholder="E-mail">
+            <label for="tel-number" class="feedback-form__label">контактный телефон:</label>
+            <input type="tel" id="tel-number" placeholder="8 (XXX) XXX-XX-XX" class="feedback-form__input">
 
-        <label>
-            <input type="checkbox" id="agreeCheck"> Я согласен получать спам и смс на телефон
-        </label>
-        <hr>
-        <label for="messageTheme">тема обращения:</label>
-        <select id="messageTheme">
-            <option selected>Условия доставки</option>
-            <option>1</option>
+            <label for="email" class="feedback-form__label">электронная почта</label>
+            <input type="email" id="email" placeholder="E-mail" class="feedback-form__input">
+
+            <label class="feedback-form__label">
+                <input type="checkbox" id="agreeCheck" class="feedback-form__check"> Я согласен получать спам и смс на
+                телефон
             </label>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-        </select>
+            <hr>
+            <label for="messageTheme" class="feedback-form__label">тема обращения:</label>
+            <select id="messageTheme" class="feedback-form__select">
+                <option selected>Условия доставки</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
 
-        <label for="messageText">текст обращения:</label>
-        <textarea name="" id="messageText" cols="30" rows="10"
-                  placeholder="Введите текст вашего обращения"></textarea>
-        <button type="submit">отправить</button>
-    </form>
+            <label for="messageText" class="feedback-form__label">текст обращения:</label>
+            <textarea name="" id="messageText" cols="30" rows="10"
+                      placeholder="Введите текст вашего обращения" class="feedback-form__text-area"></textarea>
+            <button type="submit" class="feedback-form__btn">отправить</button>
+        </form>
 
-    <img src="" alt="">
+        <img src="" alt="" class="feedback__img">
+    </div>
 </section>
 
-<footer>
-    <div>logo</div>
-    <a href="#">заказать</a>
-    <hr>
+<footer class="footer">
+    <div class="container">
+        <div>
+            <div class="logo">
+                <a href="#" class="logo__link">
+                    <img src="" alt="" class="logo__img">
+                </a>
+            </div>
 
-    <ul>
-        <li>Магазин
-            <ul>
-                <li><a href="#">домики</a></li>
-                <li><a href="#">одежда</a></li>
-                <li><a href="#">очки</a></li>
-            </ul>
-        </li>
-        <li>Отзывы
-            <ul>
-                <li><a href="#">показать</a></li>
-                <li><a href="#">оставить</a></li>
-            </ul>
-        </li>
-        <li>Прайс-лист
-            <ul>
-                <li><a href="#">скачать прайс</a></li>
-            </ul>
-        </li>
-    </ul>
+            <div class="btn">
+                <a href="#" class="btn__link">заказать</a>
+            </div>
+        </div>
 
-    <hr>
-    <span>давайте дружить!</span>
-    <aside>
-        <div>B</div>
-        <div>f</div>
-        <div>I</div>
-    </aside>
+        <hr>
 
-    <span>с<div></div>для html academy</span>
+        <ul>
+            <li>Магазин
+                <ul>
+                    <li><a href="#">домики</a></li>
+                    <li><a href="#">одежда</a></li>
+                    <li><a href="#">очки</a></li>
+                </ul>
+            </li>
+            <li>Отзывы
+                <ul>
+                    <li><a href="#">показать</a></li>
+                    <li><a href="#">оставить</a></li>
+                </ul>
+            </li>
+            <li>Прайс-лист
+                <ul>
+                    <li><a href="#">скачать прайс</a></li>
+                </ul>
+            </li>
+        </ul>
 
+        <hr>
+        <span>давайте дружить!</span>
+        <aside>
+            <div>B</div>
+            <div>f</div>
+            <div>I</div>
+        </aside>
+
+        <span>с<div></div>для html academy</span>
+    </div>
 </footer>
 
 
