@@ -3,179 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <title>KEKSBY - аксессуары для котов</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 
 <header class="header">
-    <div class="container">
-
+    <div class="container d-flex">
         <div class="logo">
             <a href="#" class="logo__link">
-                <img src="" alt="" class="logo__img">
+                <img src="img/logo.png" alt="" class="logo__img">
             </a>
         </div>
 
         <nav class="menu">
             <ul class="menu__list">
-                <li class="menu__item">магазин</li>
-                <li class="menu__item">каталог</li>
-                <li class="menu__item">отзывы</li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">магазин</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">каталог</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">отзывы</a>
+                </li>
             </ul>
         </nav>
 
-        <div class="btn">
-            <a href="#" class="btn__link">заказать</a>
-        </div>
+        <a href="#" class="button">заказать</a>
     </div>
 
-    <div class="container">
-        <h1 class="header__title">Аксессуары для котов</h1>
-        <p class="header__description">Коллекция FW15</p>
-    </div>
+    <h1 class="header__title">Аксессуары для котов<br>Коллекция FW15</h1>
 </header>
 
-<section class="features">
-    <div class="feature">
-        <h1 class="feature__title">Выбор</h1>
-        <p class="feature__description">Ваш питомец оценит широту нашего ассортимента аксессуаров.</p>
+<section class="features container d-flex">
+    <div class="features__item">
+        <img src="img/feature_1.png" alt="" class="features__img" height="61px" width="65px">
+        <h3 class="features__title">Выбор</h3>
+        <p class="features__description">Ваш питомец оценит широту нашего ассортимента аксессуаров.</p>
     </div>
-    <div class="feature">
-        <h1 class="feature__title">Качество</h1>
-        <p class="feature__description">Наши товары не сломаются на второй день. Только на третий.</p>
+    <div class="features__item">
+        <img src="img/feature_2.png" alt="" class="features__img" height="57px" width="65px">
+        <h3 class="features__title">Качество</h3>
+        <p class="features__description">Наши товары не сломаются на второй день. Только на третий.</p>
     </div>
-    <div class="feature">
-        <h1 class="feature__title">Безопастность</h1>
-        <p class="feature__description">Все изготовлено из натуральных материалов, безопасных для котов.</p>
+    <div class="features__item">
+        <img src="img/feature_3.png" alt="" class="features__img" height="57px" width="51px">
+        <h3 class="features__title">Безопастность</h3>
+        <p class="features__description">Все изготовлено из натуральных материалов, безопасных для котов.</p>
     </div>
 </section>
 
-<section class="articles">
+<section class="articles-container">
     <div class="container">
-
-        <div class="section-header">
-            <h1 class="section-header__title">Немного теории</h1>
-            <div class="btn">
-                <a href="#" class="btn__link">справочник</a>
-            </div>
+        <div class="articles__header common-header">
+            <h2 class="common-header__title">Немного теории</h2>
+            <a href="#" class="button button--brown">справочник</a>
         </div>
 
         <article class="article">
-            <h2 class="article__title">Окрас кошек и котов</h2>
-            <span class="article__text">
-                источник: <a href="#" class="article__link">wikipedia</a>
-            </span>
-            <p class="arcticle__description">Окрас шерсти, кожи и глаз кошки обусловлен присутствием в них пигмента
-                меланина. Меланин находится в теле
-                волоса в виде микроскопических гранул, которые различаются по форме, размеру и количеству, что и
-                вызывает
-                различия в окрасе.</p>
+            <h2 class="article__title">Окрас кошек и котов
+                <span class="article__text">источник: <a href="#" class="article__link">wikipedia</a></span>
+            </h2>
+            <div class="article__content">
+                <img src="img/article_1.jpg" alt="" class="article__img">
+                <p class="article__description">Окрас шерсти, кожи и глаз кошки обусловлен присутствием в них пигмента
+                    меланина. Меланин находится в теле
+                    волоса в виде микроскопических гранул, которые различаются по форме, размеру и количеству, что и
+                    вызывает
+                    различия в окрасе.</p>
+            </div>
         </article>
+
         <article class="article">
-            <h2 class="article__title">Кошкин дом</h2>
-            <span class="article__text">
-                источник: <a href="#" class="article__link">kotmurr.spb.ru</a>
-            </span>
-            <img>
-            <p class="arcticle__description">Нужен ли кошке Кошкин дом? Свой отдельный, обособленный от пространства
-                городской квартиры Кошкин дом?
-                Да,
-                нужен! Нужен особый Кошкин дом, обустроенный по ее вкусу с лесенкой, с когтеточкой, с замкнутым, своим,
-                отдельным уголком в ее, кошкином, доме.</p>
+            <h2 class="article__title">Кошкин дом
+                <span class="article__text">источник: <a href="#" class="article__link">kotmurr.spb.ru</a></span>
+            </h2>
+            <div class="article__content">
+                <img src="img/article_2.png" alt="" class="article__img">
+                <p class="article__description">Нужен ли кошке Кошкин дом? Свой отдельный, обособленный от пространства
+                    городской квартиры Кошкин дом?
+                    Да,
+                    нужен! Нужен особый Кошкин дом, обустроенный по ее вкусу с лесенкой, с когтеточкой, с замкнутым,
+                    своим,
+                    отдельным уголком в ее, кошкином, доме.</p>
+            </div>
         </article>
     </div>
 </section>
 
 <section class="comments">
     <div class="container">
-        <div class="section-header">
-            <h1 class="section-header__title">Довольные коты</h1>
-            <div class="btn">
-                <a href="#" class="btn__link">все отзывы</a>
-            </div>
+        <div class="comments__header common-header">
+            <h2 class="common-header__title">Довольные коты</h2>
+            <a href="#" class="button button--brown">все отзывы</a>
         </div>
-
-        <article class="comment">
-            <p class="comment__text">Спасибо Кексу за давно напрашивающуюся идею! Набрал себе очков на все случаи жизни:
+        <div class="comment__container">
+            <blockquote class="comments__text">
+                Спасибо Кексу за давно напрашивающуюся идею! Набрал себе очков на все случаи жизни:
                 для чтения и для
-                вечеринки с котанами B-)</p>
-            <span class="comment__user-name">Барсик, г. Москва</span>
-        </article>
-        <article class="comment">
-            <p class="comment__text">Я просто не могу без шоппинга и теперь не нужно тащить хозяйку в магазин, заказываю
+                вечеринки с котанами B-)
+                <cite class="comments__author">Барсик, г. Москва</cite>
+            </blockquote>
+
+            <blockquote class="comments__text">
+                Я просто не могу без шоппинга и теперь не нужно тащить хозяйку в магазин, заказываю
                 все аксессуары на
                 сайте у
-                Кекса он-лайн!</p>
-            <span class="comment__user-name">Мурка, г. Санкт-Петербург</span>
-        </article>
+                Кекса он-лайн!
+                <cite class="comments__author">Мурка, г. Санкт-Петербург</cite>
+            </blockquote>
+        </div>
     </div>
 </section>
 
 <section class="products">
     <div class="container">
-        <div class="section-header">
-            <h1 class="section-header__title">популярные товары</h1>
-            <div class="btn">
-                <a href="#" class="btn__link">каталог</a>
+        <div class="products__header common-header">
+            <h2 class="common-header__title">Популярные товары</h2>
+            <a href="#" class="button button--brown">каталог</a>
+        </div>
+        <div class="products__container">
+            <div class="products__item">
+                <img src="img/product_1.jpg" alt="" class="products__img">
+                <div class="products__content">
+                    <div class="products__title">Очки "Классика жанра"</div>
+                    <div class="products__price">300 р.</div>
+                </div>
+                <div class="products__buttons">
+                    <a href="#" class="button button--brown-product">описание</a>
+                    <a href="#" class="button button--brown-product">купить</a>
+                </div>
             </div>
-        </div>
-
-        <div class="product">
-            <img src="#" alt="" class="product__img">
-            <span class="product__title">Очки "Классика жанра"</span>
-            <div class="product__price">300 р.</div>
-            <a href="#" class="product__btn">описание</a>
-            <a href="#" class="product__btn">купить</a>
-        </div>
-        <div class="product">
-            <img src="#" alt="" class="product__img">
-            <span class="product__title">Очки "Жалюзи"</span>
-            <div class="product__price">400 р.</div>
-            <a href="#" class="product__btn">описание</a>
-            <a href="#" class="product__btn">купить</a>
-        </div>
-        <div class="product">
-            <img src="#" alt="" class="product__img">
-            <span class="product__title">Очки "Базилио"</span>
-            <div class="product__price">500 р.</div>
-            <a href="#" class="product__btn">описание</a>
-            <a href="#" class="product__btn">купить</a>
+            <div class="products__item">
+                <img src="img/product_2.jpg" alt="" class="products__img">
+                <div class="products__content">
+                    <div class="products__title">Очки "Жалюзи"</div>
+                    <div class="products__price">400 р.</div>
+                </div>
+                <div class="products__buttons">
+                    <a href="#" class="button button--brown-product">описание</a>
+                    <a href="#" class="button button--brown-product">купить</a>
+                </div>
+            </div>
+            <div class="products__item">
+                <img src="img/product_3.jpg" alt="" class="products__img">
+                <div class="products__content">
+                    <div class="products__title">Очки "Базилио"</div>
+                    <div class="products__price">500 р.</div>
+                </div>
+                <div class="products__buttons">
+                    <a href="#" class="button button--brown-product">описание</a>
+                    <a href="#" class="button button--brown-product">купить</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 <section class="price">
     <div class="container">
-        <div class="section-header">
-            <h1 class="section-header__title">прайс-лист на услуги</h1>
-        </div>
-        <table class="price-table">
-            <tr class="price-table__header">
+
+        <h2 class="price__title common-header__title">Прайс-лист на услуги</h2>
+
+        <table class="price__table">
+            <tr class="price__table-header-row">
                 <th>№</th>
-                <th>название услуги</th>
-                <th>кто оказывает</th>
-                <th>сколько стоит</th>
+                <th class="price__table-header-row--start">название услуги</th>
+                <th class="price__table-header-row--start price__master">кто оказывает</th>
+                <th class="price__table-header-row--start price__cost">сколько стоит</th>
             </tr>
             <tr>
-                <td>1.</td>
-                <td>Стрижка</td>
+                <td class="price__number">1.</td>
+                <td class="price__service">Стрижка</td>
                 <td>Грумер</td>
                 <td>500 руб.</td>
             </tr>
             <tr>
-                <td>2.</td>
-                <td>Заточка когтей</td>
+                <td class="price__number">2.</td>
+                <td class="price__service">Заточка когтей</td>
                 <td>Грумер</td>
                 <td>300 руб.</td>
             </tr>
             <tr>
-                <td>3.</td>
-                <td>Накрутка усов</td>
+                <td class="price__number">3.</td>
+                <td class="price__service">Накрутка усов</td>
                 <td>Грумер</td>
                 <td>100 руб.</td>
             </tr>
             <tr>
-                <td>4.</td>
-                <td>Подбор аксессуаров</td>
+                <td class="price__number">4.</td>
+                <td class="price__service">Подбор аксессуаров</td>
                 <td>Стилист</td>
                 <td>1500 руб.</td>
             </tr>
@@ -185,94 +202,108 @@
 
 <section class="feedback">
     <div class="container">
-        <div class="section-header">
-            <h1 class="section-header__title">Остались вопросы?</h1>
-            <p class="section-headre__text">Свяжитесь с нами, и мы развеем оставшиеся у вас сомнения!</p>
+        <div class="feedback-header common-header">
+            <h2 class="common-header__title">Остались вопросы?</h2>
+            <p class="common-header__text">Свяжитесь с нами, и мы развеем оставшиеся у вас сомнения!</p>
         </div>
 
-        <form action="" class="feedback-form">
-            <label for="name" class="feedback-form__label">представьтесь, пожалуйста:</label>
-            <input type="text" id="name" placeholder='Имя "Прозвище" Фамилия' class="feedback-form__input">
+        <div class="feedback__content">
 
-            <label for="tel-number" class="feedback-form__label">контактный телефон:</label>
-            <input type="tel" id="tel-number" placeholder="8 (XXX) XXX-XX-XX" class="feedback-form__input">
+            <form action="" class="feedback-form">
+                <label for="name" class="feedback-form__label">представьтесь, пожалуйста:
+                    <input type="text" id="name" placeholder='Имя "Прозвище" Фамилия'
+                           class="feedback-form__input" size="">
+                </label>
 
-            <label for="email" class="feedback-form__label">электронная почта</label>
-            <input type="email" id="email" placeholder="E-mail" class="feedback-form__input">
+                <div class="feedback-form__contacts">
+                    <div class="feedback-form__contacts-item">
+                        <label for="tel-number" class="feedback-form__label">контактный телефон:</label>
+                        <input type="tel" id="tel-number" placeholder="8 (XXX) XXX-XX-XX"
+                               class="feedback-form__input">
+                    </div>
+                    <div class="feedback-form__contacts-item">
+                        <label for="email" class="feedback-form__label">электронная почта:</label>
+                        <input type="email" id="email" placeholder="E-mail"
+                               class="feedback-form__input">
+                    </div>
+                </div>
+                <label class="feedback-form__checkbox">
+                    Я согласен получать спам и смс на телефон
+                    <input type="checkbox" id="agreeCheck" checked="checked" class="feedback-form__check">
+                    <div class="feedback__checkbox-marker"></div>
+                </label>
 
-            <label class="feedback-form__label">
-                <input type="checkbox" id="agreeCheck" class="feedback-form__check"> Я согласен получать спам и смс на
-                телефон
-            </label>
-            <hr>
-            <label for="messageTheme" class="feedback-form__label">тема обращения:</label>
-            <select id="messageTheme" class="feedback-form__select">
-                <option selected>Условия доставки</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-            </select>
+                <hr>
+                <label for="messageTheme" class="feedback-form__label">тема обращения:</label>
+                <select id="messageTheme" class="feedback-form__select">
+                    <option selected>Условия доставки</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
 
-            <label for="messageText" class="feedback-form__label">текст обращения:</label>
-            <textarea name="" id="messageText" cols="30" rows="10"
-                      placeholder="Введите текст вашего обращения" class="feedback-form__text-area"></textarea>
-            <button type="submit" class="feedback-form__btn">отправить</button>
-        </form>
+                <label for="messageText" class="feedback-form__label">текст обращения:</label>
+                <textarea name="" id="messageText" cols="30" rows="10"
+                          placeholder="Введите текст вашего обращения" class="feedback-form__text-area"></textarea>
+                <button type="submit" class="feedback-form__btn">отправить</button>
+            </form>
 
-        <img src="" alt="" class="feedback__img">
+            <!--<img src="img/feedback_img.jpg" alt="" class="feedback__img">-->
+        </div>
     </div>
 </section>
 
 <footer class="footer">
     <div class="container">
-        <div class="footer">
+        <div class="footer__header">
             <div class="logo">
                 <a href="#" class="logo__link">
-                    <img src="" alt="" class="logo__img">
+                    <img src="img/logo.png" alt="" class="logo__img">
                 </a>
             </div>
+            <a href="#" class="button">заказать</a>
+        </div>
 
-            <div class="btn">
-                <a href="#" class="btn__link">заказать</a>
+        <div class="footer__navigation">
+            <div class="footer__navigation-item">
+                <h4 class="footer__navigation-title">магазин</h4>
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Домики</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Одежда</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Очки</a></li>
+                </ul>
+            </div>
+            <div class="footer__navigation-item">
+                <h4 class="footer__navigation-title">отзывы</h4>
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Показать</a></li>
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Оставить</a></li>
+                </ul>
+            </div>
+            <div class="footer__navigation-item">
+                <h4 class="footer__navigation-title">прайс-лист</h4>
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__item"><a href="#" class="footer-menu__link">Скачать прайс</a></li>
+                </ul>
             </div>
         </div>
 
-        <hr>
+        <div class="footer__friendship">
+            <h4 class="footer__friendship-title">Давайте дружить!</h4>
+            <div class="social">
+                <a href="#" class="social__link social__link--vk"></a>
+                <a href="#" class="social__link social__link--fb"></a>
+                <a href="#" class="social__link social__link--insta"></a>
+            </div>
 
-        <ul class="navigation">
-            <li>Магазин
-                <ul>
-                    <li><a href="#">домики</a></li>
-                    <li><a href="#">одежда</a></li>
-                    <li><a href="#">очки</a></li>
-                </ul>
-            </li>
-            <li>Отзывы
-                <ul>
-                    <li><a href="#">показать</a></li>
-                    <li><a href="#">оставить</a></li>
-                </ul>
-            </li>
-            <li>Прайс-лист
-                <ul>
-                    <li><a href="#">скачать прайс</a></li>
-                </ul>
-            </li>
-        </ul>
-
-        <hr>
-        <span>давайте дружить!</span>
-        <aside>
-            <div>B</div>
-            <div>f</div>
-            <div>I</div>
-        </aside>
-
-        <span>с<div></div>для html academy</span>
+            <div class="footer__friendship-text">C
+                <div class="footer__heart-ico"></div>
+                для html academy
+            </div>
+        </div>
     </div>
 </footer>
-
 
 </body>
 </html>
