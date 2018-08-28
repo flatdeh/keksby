@@ -521,10 +521,13 @@ body {
     display: block;
     position: relative;
     padding-left: 41px;
-    margin-bottom: 5px;
     padding-top: 11px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 31px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 37px;
 }
 .feedback-form__check{
     position: absolute;
@@ -557,4 +560,37 @@ body {
     border: solid #a58c71;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
+}
+
+.feedback-form__select-aria{
+    position: relative;
+}
+
+.feedback-form__select {
+    display: block;
+    width: 100%;
+    border: 2px solid #d6d6d6;
+    background-color: #ffffff;
+    color: #404040;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    margin-top: 11px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.feedback-form__label--select::after{
+    content: "";
+    position: absolute;
+    right: 22px;
+    top: 47px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #bebebe;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-radius: 2px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }

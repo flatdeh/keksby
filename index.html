@@ -208,7 +208,6 @@
         </div>
 
         <div class="feedback__content">
-
             <form action="" class="feedback-form">
                 <label for="name" class="feedback-form__label">представьтесь, пожалуйста:
                     <input type="text" id="name" placeholder='Имя "Прозвище" Фамилия'
@@ -229,19 +228,21 @@
                 </div>
                 <label class="feedback-form__checkbox">
                     Я согласен получать спам и смс на телефон
-                    <input type="checkbox" id="agreeCheck" checked="checked" class="feedback-form__check">
-                    <div class="feedback__checkbox-marker"></div>
+                    <input type="checkbox" id="agreeCheck" class="feedback-form__check">
+                    <span class="feedback__checkbox-marker"></span>
                 </label>
 
-                <hr>
-                <label for="messageTheme" class="feedback-form__label">тема обращения:</label>
-                <select id="messageTheme" class="feedback-form__select">
-                    <option selected>Условия доставки</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
+                <div class="feedback-form__select-aria">
+                    <label for="messageTheme" class="feedback-form__label feedback-form__label--select">тема
+                        обращения:</label>
+                    <select id="messageTheme" class="feedback-form__select">
+                        <option selected>Условия доставки</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
 
                 <label for="messageText" class="feedback-form__label">текст обращения:</label>
                 <textarea name="" id="messageText" cols="30" rows="10"
