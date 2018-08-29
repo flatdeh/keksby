@@ -28,6 +28,11 @@ body {
     padding-bottom: 12px;
 }
 
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 .d-flex {
     display: flex;
     justify-content: space-between;
@@ -57,6 +62,10 @@ body {
     color: #ffffff;
     font-size: 24px;
     font-weight: 400;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
 }
 
 .header__title {
@@ -125,16 +134,20 @@ body {
 }
 
 .article__title {
-    margin: 0;
+    margin: 0 0 12px 0;
     color: #000000;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 12px;
 }
 
 .button--brown {
     border-color: #a68d72;
     color: #a68d72;
+}
+
+.button--brown:hover {
+    background-color: #a68d72;
+    color: #ffffff;
 }
 
 .common-header {
@@ -162,6 +175,10 @@ body {
     font-weight: 400;
     font-style: italic;
     position: relative;
+}
+
+.article__link:hover {
+    text-decoration: none;
 }
 
 .article__link::after {
@@ -283,6 +300,10 @@ body {
     margin-bottom: 17px;
 }
 
+.button--brown-product:hover {
+    background-color: #a38b70;
+}
+
 .price {
     background-color: #f2f2f2;
     padding-top: 58px;
@@ -345,11 +366,9 @@ body {
 
 /*--------------------------*/
 
-
-
 /*------------------*/
 
-.footer{
+.footer {
     background-color: #333333;
     padding-top: 44px;
     padding-bottom: 50px
@@ -402,6 +421,10 @@ body {
     text-decoration: none;
 }
 
+.footer-menu__link:hover {
+    text-decoration: underline;
+}
+
 .footer__friendship {
     display: flex;
     justify-content: space-between;
@@ -430,6 +453,10 @@ body {
     vertical-align: baseline;
     background: url("../img/sprite.png") no-repeat;
     margin-left: 10px;
+}
+
+.social__link:hover {
+    background-color: #a68d72;
 }
 
 .social__img {
@@ -497,7 +524,7 @@ body {
     box-sizing: border-box;
 }
 
-.feedback-form__input::placeholder{
+.feedback-form__input::placeholder {
     color: #404040;
     font-size: 18px;
     font-weight: 400;
@@ -508,7 +535,7 @@ body {
     justify-content: space-between;
 }
 
-.feedback-form__contacts-item{
+.feedback-form__contacts-item {
     flex: 0 1 290px;
 }
 
@@ -525,11 +552,13 @@ body {
     border-bottom: 1px solid #d6d6d6;
     margin-bottom: 37px;
 }
-.feedback-form__check{
+
+.feedback-form__check {
     position: absolute;
     z-index: -1;
     opacity: 0;
 }
+
 .feedback__checkbox-marker {
     position: absolute;
     top: 2px;
@@ -544,6 +573,7 @@ body {
 .feedback-form__checkbox input:checked ~ .feedback__checkbox-marker:after {
     display: block;
 }
+
 .feedback__checkbox-marker:after {
     box-sizing: unset;
     content: '';
@@ -558,7 +588,7 @@ body {
     transform: rotate(45deg);
 }
 
-.feedback-form__select-aria{
+.feedback-form__select-aria {
     position: relative;
     margin-bottom: 27px;
 }
@@ -577,7 +607,7 @@ body {
     -webkit-appearance: none;
 }
 
-.feedback-form__label--select::after{
+.feedback-form__label--select::after {
     content: "";
     position: absolute;
     right: 22px;
@@ -612,7 +642,7 @@ body {
     resize: none;
 }
 
-.feedback-form__text-area::placeholder{
+.feedback-form__text-area::placeholder {
     font-family: Arial, sans-serif;
     color: #404040;
     font-size: 18px;
@@ -621,7 +651,7 @@ body {
 
 .feedback-form__btn {
     background-color: #a68d72;
-    border: none;
+    border: 2px solid #a68d72;
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
@@ -629,8 +659,9 @@ body {
     text-transform: uppercase;
 }
 
-.feedback-form__btn:hover{
-    background-color: #a18b79;
+.feedback-form__btn:hover {
+    background-color: #ffffff;
+    color: #a68d72;
 }
 
 .feedback_img-container {
